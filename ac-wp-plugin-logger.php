@@ -1,3 +1,4 @@
+<?php
 /** 
  * Plugin Name: Plugin Update Logger With Webhook Options & Daily Outdated Report
  * Version: 1
@@ -218,3 +219,6 @@ function plugin_update_logger_deactivate() {
     wp_clear_scheduled_hook( 'plugin_update_logger_daily_event' );
 }
 register_deactivation_hook( __FILE__, 'plugin_update_logger_deactivate' );
+
+
+?>
