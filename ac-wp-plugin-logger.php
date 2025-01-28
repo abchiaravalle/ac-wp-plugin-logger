@@ -1,7 +1,7 @@
 <?php
 /** 
  * Plugin Name: Plugin Update Logger With Webhook Options & Daily Outdated Report
- * Version: 1
+ * Version: 1.1
  */
 
 /**
